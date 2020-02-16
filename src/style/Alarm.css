@@ -1,0 +1,84 @@
+.overThreshold {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.normalThreshold {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px #fff;
+    }
+
+    50% {
+        background-color: #d00000;
+        -webkit-box-shadow: 0 0 10px #d00000;
+    }
+
+    100% {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px #fff;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        background-color: #fff;
+        -moz-box-shadow: 0 0 3px #fff;
+    }
+
+    50% {
+        background-color: #d00000;
+        -moz-box-shadow: 0 0 10px #d00000;
+    }
+
+    100% {
+        background-color: #fff;
+        -moz-box-shadow: 0 0 3px #fff;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        background-color: #fff;
+        box-shadow: 0 0 3px #fff;
+    }
+
+    50% {
+        background-color: #d00000;
+        box-shadow: 0 0 10px #d00000;
+    }
+
+    100% {
+        background-color: #fff;
+        box-shadow: 0 0 3px #fff;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #fff;
+        box-shadow: 0 0 3px #fff;
+    }
+
+    50% {
+        background-color: #d00000;
+        box-shadow: 0 0 10px #d00000;
+    }
+
+    100% {
+        background-color: #fff;
+        box-shadow: 0 0 3px #fff;
+    }
+}
+
+.overThreshold {
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+}

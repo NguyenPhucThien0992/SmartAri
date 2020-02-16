@@ -1,0 +1,17 @@
+.statusandwarning,
+.infomation {
+    padding-top: 50px;
+}
+
+.fontawsome {
+    margin-right: 10px;
+}
+
+.statusinfo {
+    color: #20c997;
+    font-weight: bold
+}
+
+.titleTab {
+    margin-right: 5px;
+}

@@ -1,0 +1,13 @@
+.titleDetail span.subTitle {
+  margin-right: 20px;
+  font-weight: bold;
+
+}
+
+.titleDetail svg {
+  margin-right: 5px;
+}
+
+.titleDetail .titleValue {
+  margin-right: 5px;
+}

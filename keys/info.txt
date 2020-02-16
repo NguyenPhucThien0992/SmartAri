@@ -1,0 +1,5 @@
++ host-name: a2o6k29646ympr-ats.iot.us-west-2.amazonaws.com
++ private-key: user1.private.key
++ client-certificate: user1.cert.pem
++ ca-certificate=root-CA.crt
++ client-id= user1
