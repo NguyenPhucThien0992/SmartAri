@@ -94,14 +94,14 @@ class MushRoom1 extends Component {
                 </div>
                 <div className="col-12 infomation">
                   <div className="row">
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-success">
-                        <span className="info-box-icon">
+                        <span className="info-box-icon icontitle">
                           <i className="fas fa-thermometer-half"></i>
                         </span>
 
                         <div className="info-box-content">
-                          <span className="info-box-text">Nhiệt độ</span>
+                          <span className="info-box-text title">Nhiệt độ</span>
                           <span className="info-box-number">
                             {TemperatureValue}
                           </span>
@@ -109,7 +109,7 @@ class MushRoom1 extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-warning">
                         <span className="info-box-icon">
                           <i className="fas fa-cloud-rain"></i>
@@ -124,7 +124,7 @@ class MushRoom1 extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-info">
                         <span className="info-box-icon">
                           <i className="fas fa-water"></i>

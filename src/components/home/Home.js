@@ -83,38 +83,54 @@ class Home extends Component {
         <section className="content">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6 col-6">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="small-box bg-info">
                   <div className="inner">
                     <h3>Nhà nấm bào ngư</h3>
                     <div className="row">
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">Nhiệt độ</span>
-                          <i className="fas fa-thermometer-half"></i>
-                          <span className="titleValue">{temperatureSen1}</span>
-                          <span>
-                            <sup>o</sup>C
-                          </span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>Nhiệt độ</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-thermometer-half"></i>
+                            <span className="titleValue">
+                              {temperatureSen1}
+                            </span>
+                            <span>
+                              <sup>o</sup>C
+                            </span>
+                          </div>
+                        </div>
                       </div>
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">Độ ẩm</span>
-                          <i className="fas fa-cloud-rain"></i>
-                          <span className="titleValue">{humiditySen1}</span>
-                          <span>%</span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>Độ ẩm</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-cloud-rain"></i>
+                            <span className="titleValue">
+                              {temperatureSen1}
+                            </span>
+                            <span>%</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">CO2</span>
-                          <i className="fas fa-water"></i>
-                          <span className="titleValue">{carbonicSen1}</span>
-                          <span>ppm</span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>CO2</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-water"></i>
+                            <span className="titleValue">{carbonicSen1}</span>
+                            <span>ppm</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -126,43 +142,57 @@ class Home extends Component {
                 </div>
               </div>
               {/* End nhà bấm bào ngư 1  */}
-              <div className="col-lg-6 col-6">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="small-box bg-warning">
                   <div className="inner">
                     <h3>Nhà nấm mối đen</h3>
                     <div className="row">
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">Nhiệt độ</span>
-                          <i className="fas fa-thermometer-half"></i>
-                          <span className="titleValue">{temperatureSen2}</span>
-                          <span>
-                            <sup>o</sup>C
-                          </span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>Nhiệt độ</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-thermometer-half"></i>
+                            <span className="titleValue">
+                              {temperatureSen2}
+                            </span>
+                            <span>
+                              <sup>o</sup>C
+                            </span>
+                          </div>
+                        </div>
                       </div>
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">Độ ẩm</span>
-                          <i className="fas fa-cloud-rain"></i>
-                          <span className="titleValue">{humiditySen2}</span>
-                          <span>%</span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>Độ ẩm</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-cloud-rain"></i>
+                            <span className="titleValue">{humiditySen2}</span>
+                            <span>%</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-6">
-                        <p className="titleDetail">
-                          <span className="subTitle">CO2</span>
-                          <i className="fas fa-water"></i>
-                          <span className="titleValue">{carbonicSen2}</span>
-                          <span>ppm</span>
-                        </p>
+                        <div className="row">
+                          <div className="col-6 subtitle">
+                            <span>CO2</span>
+                          </div>
+                          <div className="col-6 subcontent">
+                            <i className="fas fa-water"></i>
+                            <span className="titleValue">{carbonicSen2}</span>
+                            <span>ppm</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <Link to="#" className="small-box-footer">
+                  <Link to="/nha-nam-moi-den" className="small-box-footer">
                     Xem chi tiết...{" "}
                     <i className="fas fa-arrow-circle-right"></i>
                   </Link>

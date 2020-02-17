@@ -1,13 +1,38 @@
-.titleDetail span.subTitle {
+.mainlink:hover {
+  cursor: pointer;
+}
+
+.subtitle span {
   margin-right: 20px;
   font-weight: bold;
-
+  float: right;
 }
 
-.titleDetail svg {
+.subcontent svg,
+.subcontent span {
+  float: left;
+}
+
+.subcontent svg {
   margin-right: 5px;
 }
 
-.titleDetail .titleValue {
+.titleValue {
   margin-right: 5px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .subtitle span {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .subcontent svg,
+  .subcontent span {
+    font-size: 10px;
+  }
 }

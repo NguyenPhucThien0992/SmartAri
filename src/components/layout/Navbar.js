@@ -86,7 +86,7 @@ class Navbar extends Component {
                 </li>
 
                 <li className="nav-item has-treeview">
-                  <a href="#" className="nav-link">
+                  <a className="nav-link mainlink">
                     <i className="nav-icon fas fa-table"></i>
                     <p>
                       Nhà nấm Thanh Tâm

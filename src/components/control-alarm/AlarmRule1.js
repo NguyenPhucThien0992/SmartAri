@@ -5,6 +5,7 @@ import {
   updateAlarmSensor1
 } from "./../../actions/alarmActions";
 import InputGroup from "../common/InputGroup";
+import "./../../style/AlarmRule.css";
 class AlarmRule1 extends Component {
   constructor(props) {
     super(props);
@@ -71,7 +72,7 @@ class AlarmRule1 extends Component {
                   <h3>Nhiệt độ</h3>
                   <div class="row">
                     <div class="form-group col-6">
-                      <label>High safe threshold</label>
+                      <label>Cao nhất</label>
                       <InputGroup
                         placeholder="High Temperature"
                         name="HighTem_sensor1"
@@ -81,7 +82,7 @@ class AlarmRule1 extends Component {
                       ></InputGroup>
                     </div>
                     <div class="form-group col-6">
-                      <label>Low safe threshold</label>
+                      <label>Thấp nhất</label>
                       <InputGroup
                         placeholder="Low Temperature"
                         name="LowTem_sensor1"
@@ -96,7 +97,7 @@ class AlarmRule1 extends Component {
                   <h3>Độ ẩm</h3>
                   <div class="row">
                     <div class="form-group col-6">
-                      <label>High safe threshold</label>
+                      <label>Cao nhất</label>
                       <InputGroup
                         placeholder="High Humidity"
                         name="HighHumid_sensor1"
@@ -106,7 +107,7 @@ class AlarmRule1 extends Component {
                       ></InputGroup>
                     </div>
                     <div class="form-group col-6">
-                      <label>Low safe threshold</label>
+                      <label>Thấp nhất</label>
                       <InputGroup
                         placeholder="Low Humidity"
                         name="LowHumid_sensor1"
@@ -121,7 +122,7 @@ class AlarmRule1 extends Component {
                   <h3>Carbonic</h3>
                   <div class="row">
                     <div class="form-group col-6">
-                      <label>High safe threshold</label>
+                      <label>Cao nhất</label>
                       <InputGroup
                         placeholder="High Carbonic"
                         name="HighCar_sensor1"
@@ -131,7 +132,7 @@ class AlarmRule1 extends Component {
                       ></InputGroup>
                     </div>
                     <div class="form-group col-6">
-                      <label>Low safe threshold</label>
+                      <label>Thấp nhất</label>
                       <InputGroup
                         placeholder="Low Carbonic"
                         name="LowCar_sensor1"

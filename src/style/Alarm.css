@@ -82,3 +82,14 @@
     -moz-animation: glowing 1500ms infinite;
     -o-animation: glowing 1500ms infinite;
 }
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+}

@@ -3,6 +3,7 @@ import "./../../style/MushRoom1.css";
 import { connect } from "react-redux";
 import { getDataSensor2 } from "./../../actions/HomeAction";
 import AlarmRule2 from "./../control-alarm/AlarmRule2";
+import Control2 from "./../control-alarm/Control2"
 
 class MushRoom2 extends Component {
   UNSAFE_componentWillMount() {
@@ -93,7 +94,7 @@ class MushRoom2 extends Component {
                 </div>
                 <div className="col-12 infomation">
                   <div className="row">
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-success">
                         <span className="info-box-icon">
                           <i className="fas fa-thermometer-half"></i>
@@ -108,7 +109,7 @@ class MushRoom2 extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-warning">
                         <span className="info-box-icon">
                           <i className="fas fa-cloud-rain"></i>
@@ -123,7 +124,7 @@ class MushRoom2 extends Component {
                       </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-6 col-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                       <div className="info-box bg-gradient-info">
                         <span className="info-box-icon">
                           <i className="fas fa-water"></i>
@@ -151,9 +152,7 @@ class MushRoom2 extends Component {
 
                     <div className="card-body">
                       <div className="row">
-                        <div className="col-4">sfdsf</div>
-                        <div className="col-4">asdfsf</div>
-                        <div className="col-4">sdf</div>
+                  <Control2></Control2>
                       </div>
                     </div>
                   </div>

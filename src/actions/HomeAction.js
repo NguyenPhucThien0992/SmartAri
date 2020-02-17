@@ -3,8 +3,7 @@ import {
   INITIAL_DEVICE,
   GET_ALARM,
   GET_DATA_SENSOR1,
-  GET_DATA_SENSOR2,
-  TESTING2
+  GET_DATA_SENSOR2
 } from "../actions/type";
 import axios from "axios";
 const host = process.env.REACT_APP_HOST_API;
