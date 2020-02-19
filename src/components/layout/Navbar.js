@@ -12,47 +12,6 @@ class Navbar extends Component {
     this.props.logoutUser();
   };
   render() {
-    const { isAuthenticated, user } = this.props.auth;
-    const authLinks = (
-      <ul classNameName="navbar-nav ml-auto">
-        <li classNameName="nav-item">
-          <Link classNameName="nav-link" to="/feed">
-            Post Feed
-          </Link>
-        </li>
-        <li classNameName="nav-item">
-          <Link classNameName="nav-link" to="/dashboard">
-            Dashboard
-          </Link>
-        </li>
-        <li classNameName="nav-item">
-          <a href="#" classNameName="nav-link" onClick={this.onLogoutClick}>
-            <img
-              classNameName="rounded-circle"
-              src={user.avatar}
-              alt={user.name}
-              title="You must have a  Gravatar connected to your email to display an image"
-              style={{ width: "25px", marginRight: "5px" }}
-            ></img>
-            Logout
-          </a>
-        </li>
-      </ul>
-    );
-    const guestLinks = (
-      <ul classNameName="navbar-nav ml-auto">
-        <li classNameName="nav-item">
-          <Link classNameName="nav-link" to="/register">
-            Sign Up
-          </Link>
-        </li>
-        <li classNameName="nav-item">
-          <Link classNameName="nav-link" to="/login">
-            Login
-          </Link>
-        </li>
-      </ul>
-    );
     return (
       <Fragment>
         <nav className="main-header navbar navbar-expand navbar-white navbar-light">
@@ -86,13 +45,13 @@ class Navbar extends Component {
                 </li>
 
                 <li className="nav-item has-treeview">
-                  <a className="nav-link mainlink">
+                  <Link to="" className="nav-link mainlink">
                     <i className="nav-icon fas fa-table"></i>
                     <p>
                       Nhà nấm Thanh Tâm
                       <i className="fas fa-angle-left right"></i>
                     </p>
-                  </a>
+                  </Link>
                   <ul className="nav nav-treeview">
                     <li className="nav-item">
                       <Link to="/nha-nam-bao-ngu" className="nav-link">

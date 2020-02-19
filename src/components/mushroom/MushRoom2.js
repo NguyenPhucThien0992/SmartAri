@@ -3,7 +3,8 @@ import "./../../style/MushRoom1.css";
 import { connect } from "react-redux";
 import { getDataSensor2 } from "./../../actions/HomeAction";
 import AlarmRule2 from "./../control-alarm/AlarmRule2";
-import Control2 from "./../control-alarm/Control2"
+import Control2 from "./../control-alarm/Control2";
+import { Link } from "react-router-dom";
 
 class MushRoom2 extends Component {
   UNSAFE_componentWillMount() {
@@ -31,7 +32,10 @@ class MushRoom2 extends Component {
             <div className="row mb-2">
               <div className="col-sm-6">
                 <h1 className="m-0 text-dark">
-                  <i class="fas fa-home titleTab"></i>Nhà nấm mối đen
+                  <Link exact to="/home" className="backhome">
+                    <i class="fas fa-home titleTab"></i>{" "}
+                  </Link>
+                  Nhà nấm mối đen
                 </h1>
               </div>
             </div>
@@ -152,7 +156,7 @@ class MushRoom2 extends Component {
 
                     <div className="card-body">
                       <div className="row">
-                  <Control2></Control2>
+                        <Control2></Control2>
                       </div>
                     </div>
                   </div>

@@ -57,9 +57,9 @@ app.set("device", device);
 async function run() {
   const device = await connectMqtt();
   device.on("connect", (req, res) => {
-    device.subscribe("$aws/things/Gateway_1/shadow/update/accepted", () => {
-      console.log(" da sup rai");
-    });
+    // device.subscribe("$aws/things/Gateway_1/shadow/update/accepted", () => {
+    //   console.log(" da sup rai");
+    // });
   });
 
   return device;

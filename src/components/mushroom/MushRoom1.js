@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { getDataSensor1 } from "./../../actions/HomeAction";
 import AlarmRule1 from "./../control-alarm/AlarmRule1";
 import Control1 from "./../control-alarm/Control1";
+import { Link } from "react-router-dom";
 
 class MushRoom1 extends Component {
   UNSAFE_componentWillMount() {
@@ -31,7 +32,10 @@ class MushRoom1 extends Component {
             <div className="row mb-2">
               <div className="col-sm-6">
                 <h1 className="m-0 text-dark">
-                  <i class="fas fa-home titleTab"></i>Nhà nấm bào ngư
+                  <Link exact to="/home" className="backhome">
+                    <i class="fas fa-home titleTab"></i>
+                  </Link>
+                  Nhà nấm bào ngư
                 </h1>
               </div>
             </div>
