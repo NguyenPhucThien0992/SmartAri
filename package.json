@@ -20,7 +20,7 @@
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.9.1",
     "mqtt": "^3.0.0",
     "nodemon": "^2.0.2",
